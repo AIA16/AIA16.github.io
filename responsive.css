@@ -1,0 +1,443 @@
+
+@media only screen and (min-width:992px) and (max-width:1199px){    
+    
+    /* first page */
+
+    .first_page_para {
+        max-width: 440px;
+        height: 459px;
+        margin-left:175px;
+        margin-top:80px;
+    }
+     
+    /* second page */
+
+    .first_pic{
+        max-width:300px!important;
+        height:253px!important;
+    }
+    .second_pic{
+        max-width:220px!important;
+        height:220px!important;
+        margin-left: 320px;
+        margin-top: -590px;
+    }
+    .third_pic{
+        max-width:150px!important;
+        height:150px!important;
+    }
+    .parent {
+        margin-top: 182px;
+    }
+
+    /* second page second  part */
+
+    .icon1{
+        margin-left:200px!important;
+    }
+    .icon3{
+        margin-left:160px!important;
+    }
+
+    .eleven{
+        font-size:55px!important;
+        margin-top:80px;
+    }
+
+    /* third page background */
+
+
+    .third_page{
+        width:100%;
+        height:auto;
+    }
+
+    /* fourth page */
+
+    .fourth_page{
+        width:100%;
+        height:720px;
+    }
+    .our_services {
+        margin-left: 390px;
+    }
+    .img_cc{
+        max-width:100%;
+        height:366px;
+        margin-top:-40px;
+    }
+    .img_rd{
+        max-width:100%;
+        height:366px;
+        margin-top:-40px;
+    }
+    .rd {
+        margin-left: 20px;
+    }
+    .rd_h4 {
+        font-size: 25px;
+    }
+    .img_pm{
+        max-width:100%;
+        height:auto;
+        margin-top:-40px;
+    }
+    .img_dd{
+        margin-top:0px;
+    }
+
+    /* fifth page */
+
+    .fifth_page{
+        width:100%;
+        height:1060px;
+    }
+    .left_content {
+        margin-left: -15px;
+        margin-top: 380px;
+    }
+
+    .rigth_lekha_margin{
+        margin-bottom: 2rem !important;
+    }
+    .middle_pics {
+        margin-top: 225px;
+        margin-left: 30px;
+    }
+    .middle_pictures{
+        margin-bottom: 4.5rem !important
+    }
+    .right_lekha {
+        margin-top: 225px;
+    }
+    .button_div {
+        margin-top:75px;
+    }
+
+    /* sixth page */
+
+    .btn_kit {
+        padding: 13.5px 30.5px;
+    }
+    .text_form {
+        width: 790px;
+    }
+    .content_a {
+        margin-left: 70px;
+        margin-top:15px;
+    }
+
+    /* last page */
+
+    .copy_right_p {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    .your_email_button {
+        margin-left: 455px;
+        margin-top: -60px;
+    }
+    .copyright_n_menu {
+        margin-top: 20px;
+    }
+
+    .last_page {
+        width:1920px;
+        height: 360px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    
+    
+    /* 1st page background */
+    .robot_page{
+        width:100%;
+        background-size:cover;
+        background-position: center center;
+    }
+    /* First Page ::content */
+    
+    .first_page_para{
+        
+        max-width: 350px;
+        height: 365px;
+        margin-left:100px;
+        margin-top:150px;
+    }
+    .f_header{
+        font-size: 30px;
+        margin-top: 110px;
+        margin-left: 75px;
+    
+    }
+    .f_para{
+        font-size: 12px;
+        margin-left: 80px;
+    }
+    .btn2,.btn1{
+        font-size:8px;
+    }
+    .btn1{
+        margin-left:80px; 
+    } 
+
+    /* Second page */
+
+    .second{
+        width:100%;
+        height:auto;
+    }
+
+
+    .first_pic{
+        max-width:270px!important;
+        height:228px!important;
+        margin-top:265px;
+        margin-left:-15px;
+        z-index:2;
+    }
+    .second_pic{
+        max-width:190px!important;
+        height:190px!important;
+        margin-left: 210px;
+        margin-top: -700px;
+    }
+    .third_pic{
+        max-width:130px!important;
+        height:130px!important;
+    }
+
+
+    /* Paragraph section */
+
+    .what_we{
+        font-size:22px;
+    }
+    .best_place{
+        font-size:30px;
+    }
+    .the_value{
+        font-size:13px;
+    }
+    .full_story{
+        font-size:15px;
+    }
+    .parent {
+        margin-top: 120px;
+    }
+
+    /* second page second  part */
+
+    .icon1{
+        margin-left:135px!important;
+    }
+    .icon3{
+        margin-left:100px!important;
+    }
+
+    .eleven{
+        font-size:35px!important;
+        margin-top:92px;
+    }
+    .competition{
+        font-size:12px;
+        margin-top:95px;
+    }
+    .one{
+        margin-left:-20px;
+    }
+
+        /* Third page */
+
+    .third_page{
+        
+        width:100%;
+        height:auto;
+    }
+    .wwa{
+        font-size:40px;
+    }
+    .aboutus{
+        font-size:32px;
+    }
+    .we_are{
+        font-size:17px;
+    }
+    .we_are_para {
+        margin-top: 100px;
+    }
+
+        /* fourth page */
+
+        .fourth_page{
+            width:100%;
+            height:660px;
+        }
+        .our_services {    
+            font-size: 25px;
+            margin-left: 280px;
+        }
+        .img_cc{
+            max-width:100%;
+            height:auto;
+        }
+        .img_rd{
+            max-width:100%;
+            height:275px;
+        }
+        .img_pm{
+            max-width:100%;
+            height:auto;
+        }
+        .img_dd{
+            margin-top:7px;
+        }
+        .cc_wraper {
+            margin-top: -100px;
+            margin-left: 30px;
+        }
+        .creat {
+            font-size: 22px;
+        }
+        .consult {
+            font-size: 30px;
+        }
+        .pm_h {
+            font-size: 20px;
+        }
+        .pm {
+            margin-top: -65px;
+            margin-left: 20px;
+        }
+        .h5 {
+            font-size: 16px;
+        }
+        .h4 {
+            font-size: 20px;
+        }
+        .rd {
+            margin-top: -75px;
+            margin-left: 13px;
+        }
+        .rd_h5 {
+            font-size: 16px;
+        }
+        .rd_h4 {
+            font-size: 18px;
+        }
+
+        /* fifth page */
+
+    .fifth_page{
+        width: 100%;
+        height: 750px;  
+        }
+    .get_update {
+            font-size: 20px;
+        }    
+        .latest_news {
+            font-size: 50px;
+        }
+    .left_content {
+        margin-top: 280px;
+        margin-left: -15px;
+    }
+
+    .middle_pics {
+        margin-top: 160px;
+        margin-left: 35px;
+    }
+    .middle_pictures{
+        margin-bottom: 3rem !important;
+    }
+    .right_lekha {
+        margin-top: 163px;
+    }
+    .rigth_lekha_margin{
+        margin-bottom: 1rem !important;
+    }
+    .arduino1 {
+        font-size: 12px;
+        margin-top: -18px;
+    }
+    .achie{
+        font-size:14px;
+        font-family:Poppins-Bold;
+    }
+    .arduino {
+        font-size: 9px;
+        margin-top: -13px;
+    }
+
+    /* sixth page */
+
+
+    .btn_kit {
+        font-size: 17px;
+        padding: 10.5px 18.5px;
+    }
+    .text_form {
+        width: 596px;
+        height: 50px !important;
+    }
+    .form-control {
+        height: 50px;
+    }
+    .icon_add_h {
+        font-size: 15px;
+    }
+    .icon_add_p {
+        font-size: 14px;
+    }
+    .content_a {
+        margin-top: 15px;
+        margin-left: 54px;
+    }
+
+    /* last page */
+
+    .last_page {
+        width: 100%;
+        height: 320px;
+    }
+
+    .your_email_button {
+        margin-left: 350px;
+        margin-top: -95px;
+    }
+    .footer_menu ul li a img{
+        width:50px;
+        height:49px;
+    }
+    .copyright_n_menu {
+        margin-top: -16px;
+    }
+    .copy_right_p {
+        font-size: 12px;
+        margin-left: -70px;
+        margin-top: 15px;
+    }
+    #exampleFormControlInput12 {
+        font-size: 12px;
+        width: 132%;
+        height: 45px;
+    }
+
+    .subs{
+        font-size: 12px;
+        margin-top:9px;
+    }
+    .footer_btn {
+        font-size:12px;
+        padding: 13px 20px;
+        margin-left: 20px;
+    }
+}
+    

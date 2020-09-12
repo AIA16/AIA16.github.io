@@ -7,7 +7,9 @@
 }
 
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 
@@ -55,8 +57,8 @@
 
 /* navbar section */
 
-.navbar{
-    background-color: rgba(0,0,0,0.3)!important;
+.navbar {
+    background-color: rgba(0,0,0,0.01) !important;
 }
 .navbar ul li a{
     color:white!important;
@@ -75,7 +77,9 @@
 .navbar-toggler-icon{
     color:white!important;
 }
-
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255,1);
+}
 
 
 
@@ -538,7 +542,7 @@
     margin-top:35px;
 }
 .ciao_adios{
-    margin-left: 40px;;
+    margin-left: 25px;;
 }
 .im_done{
     margin-left:20px;
@@ -556,7 +560,7 @@
 .last_page{
     width:1920px;
     height:491px;
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 .footer_wrapper{
@@ -584,7 +588,7 @@
     color:white;
     background-color:#81a3aa;
     border-radius:0px;
-    padding:7px 20px;
+    padding:8px 20px;
     margin-left:50px;
 }
 
