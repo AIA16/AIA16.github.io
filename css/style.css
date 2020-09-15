@@ -20,7 +20,7 @@ html{
 
 .robot_page{
     background-repeat: no-repeat;
-    width:1920px;
+    width:100%px;
     background-size: cover;
     height:855px;
     background-position: center center;
@@ -56,7 +56,10 @@ html{
 
 
 /* navbar section */
-
+.navbar-toggler{
+    margin-top: 30px;
+    margin-right: 45px;
+}
 .navbar {
     background-color: rgba(0,0,0,0.01) !important;
 }
@@ -138,7 +141,7 @@ html{
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center center;
-    width:1920px;
+    width:100%px;
     height:762px;
 }
 
@@ -252,7 +255,7 @@ html{
 .third_page{
     
     background-repeat: no-repeat;
-    width:1520px;
+    width:100%px;
     background-size: cover;
     height:965px;
     background-position: center center;
@@ -292,7 +295,7 @@ html{
 .fourth_page{
     
     background-repeat: no-repeat;
-    width:1520px;
+    width:100%px;
     background-size: cover;
     height:855px;
     background-position: center center;
@@ -416,7 +419,7 @@ html{
 /* fifth page */
 
 .fifth_page{
-    width:1520px;
+    width:100%px;
     height:990px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -488,6 +491,10 @@ html{
     color:#b0e3dc;
     margin:50px 0px;
 }
+.map_of_cuet{
+    width:100%;
+    height:300px;
+}
 .kit_img{
     margin-bottom: 50px;
 }
@@ -511,6 +518,9 @@ html{
     width:940px;
     height:60px;
     vertical-align:center;
+}
+#exampleFormControlTextarea1{
+    height:61px;
 }
 #exampleFormControlTextarea1 type[placeholder]{
     margin-top:10px;
@@ -547,12 +557,6 @@ html{
 .im_done{
     margin-left:20px;
 }
-
-
-
-
-
-
 
 
 /* last page  */
