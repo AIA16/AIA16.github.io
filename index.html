@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive_notebook.css">
     <link rel="stylesheet" href="css/responsive_tablet.css">
+    <link rel="stylesheet" href="css/responsive_semi_tab.css">
     <link rel="stylesheet" href="css/responsive_mobile.css">
     <link rel="stylesheet" href="css/responsive_mobile_sm.css">
 
@@ -43,7 +44,7 @@
 
                 <!-- Navbar section -->
 
-                <nav class="navbar navbar-expand-xl navbar-dark bg-light d-inline-block float-right float-xl-left">
+                <nav class="navbar navbar-expand-xl navbar-dark bg-light d-inline-block">
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -52,14 +53,18 @@
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ABOUT</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="#">EVENT</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">MEMBERS</a>
-                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  MEMBERS
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="#">ALUMNI MEMBERS</a>
+                                  <a class="dropdown-item" href="#">COMMITTEE MEMBERS</a>
+                                  <a class="dropdown-item" href="#">EXECUTIVE MEMBERS</a>
+                                </div>
+                              </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">BLOG</a>
                             </li>
@@ -67,10 +72,7 @@
                                 <a class="nav-link" href="#">GALLERY</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CONTENT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">ACCOUNT</a>
+                                <a class="nav-link" href="#">TUTORIALS</a>
                             </li>
                         </ul>
                     </div>
@@ -91,8 +93,7 @@
                         in Bangladesh. <br>
                         We Work honestly and sorely <br>
                         for Our Country & World.</p>
-                    <button type="button" class="btn btn-sm btn-primary btn1">OUR STORY</button>
-                    <button type="button" class="btn btn-sm btn-primary btn2">READ MORE</button>
+                    <button type="button" class="btn btn-sm btn-primary btn1"><a href="#third_page_connector">OUR STORY</a></button>
                 </div>
             </div>
 
@@ -131,7 +132,6 @@
                             of our head and see what they can do. Sp we help anyone to bring out their idea out of
                             their head and make them to realize the power of their own ideas.
                         </p>
-                        <a href="#" class="full_story">Full Story</a>
                     </article>
                 </div>
             </div>
@@ -258,7 +258,7 @@
 
     <!-- Third Page -->
 
-    <div class="third_page" style="background-image: url(img/third_page_bg.png);">
+    <div class="third_page" id="third_page_connector" style="background-image: url(img/third_page_bg.png);">
         <div class="fix container">
             <div>
                 <h2 class="wwa text-center">WHO WE ARE</h2>
@@ -527,19 +527,6 @@
     <div class="last_page img-fluid" style="background-image: url(img/final_page_bg.png);">
         <div class="fix container">
             <footer class="footer_wrapper">
-                <div class="row">
-                    <form>
-                        <div class="row your_email_button">
-                            <div class="form-group col">
-                                <input type="email" class="your_email_here form-control" id="exampleFormControlInput12"
-                                    placeholder=" Your Email here" class="text-left">
-                            </div>
-                            <div class="col">
-                                <button type="button" class="footer_btn btn btn-secondary">Subscribe</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
                 <div class="row copyright_n_menu">
                     <div class="copy_right col-md-6 text-center">
                         <p class="copy_right_p">All Rights Reserved By <br> &copy;Robo Mechatronics

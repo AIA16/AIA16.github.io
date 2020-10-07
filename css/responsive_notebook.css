@@ -4,13 +4,19 @@
 
     .robot_page {
         width: 100%;
-        height:890px;
+        height:930px;
     }
     .first_page_para {
         max-width: 440px;
         height: 459px;
         margin-left:175px;
         margin-top:80px;
+    }
+    .navbar button{
+        margin-left:340px;
+    }
+    .navbar ul{
+        margin-left:165px;
     }
      
     /* second page */
@@ -134,18 +140,19 @@
 
     .copy_right_p {
         font-size: 16px;
-        margin-top: 16px;
+        margin-top: 105px;
     }
-    .your_email_button {
-        margin-left: 455px;
-        margin-top: -60px;
-    }
+    
     .copyright_n_menu {
-        margin-top: 20px;
+        margin-top: -70px;
     }
 
     .last_page {
         width: 1920px;
         height: 370px;
+    }
+    .footer_menu {
+        margin-left: -20px;
+        margin-top: 90px;
     }
 }

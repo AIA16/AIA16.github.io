@@ -63,15 +63,17 @@ html{
 .navbar {
     background-color: rgba(0,0,0,0.01) !important;
 }
+.navbar ul{
+    margin-left:65px;
+}
 .navbar ul li a{
     color:white!important;
     font-size:14px;
     font-family:Poppins-Bold;
-    margin-left: 15px;;
+    margin-left: 15px;
 }
 .navbar ul li a:hover{
     color:#81c6bc!important;
-    text-decoration:underline;
 }
 .navbar ul li a:active{
     color:#81c6bc!important;
@@ -83,7 +85,12 @@ html{
 .navbar-dark .navbar-toggler {
     border-color: rgba(255,255,255,1);
 }
-
+.dropdown-menu{
+    background-color:transparent!important;
+}
+.dropdown-menu a{
+    background-color:transparent!important;
+}
 
 
 
@@ -113,7 +120,7 @@ html{
     color: white;
     margin-left: 103px;
 }
-.btn2,.btn1{
+.btn1{
     font-family:Montserrat-SemiBold;
     font-size:11px;
     border:0px;
@@ -122,8 +129,9 @@ html{
     margin-left:105px;
     background-color:#6c9e9f;
 }
-.btn2{
-    background-color:#103039;
+.first_page_para_div button a{
+    text-decoration:none;
+    color:white;
 }
 .btn-group-sm>.btn, .btn-sm{
     padding: 0.5rem 1.25rem;
@@ -573,28 +581,6 @@ html{
 .email_N_subscribe{
     margin-top:10px;
 }
-.your_email_button{
-    margin-left:635px;
-    margin-top: 40px;
-}
-#exampleFormControlInput12{
-    background-color:rgba(0,0,0,0.1);
-    font-family:OpenSans-Regular;
-    font-size:19px;
-    color:white;
-    border:none;
-    width: 132%;
-    height: 45px;
-}
-.footer_btn{
-    font-family:Poppins-Bold;
-    font-size:18px;
-    color:white;
-    background-color:#81a3aa;
-    border-radius:0px;
-    padding:8px 20px;
-    margin-left:50px;
-}
 
 .copyright_n_menu{
     margin-top:25px;
@@ -603,11 +589,12 @@ html{
 .copy_right_p{
     font-family:Poppins-ExtraBold;
     font-size:20px;
-    color:#444444;
+    color:white;
     margin-left:-90px;
-    margin-top:12px;
+    margin-top:140px;
 }
 
 .footer_menu{
     margin-left:-20px;
+    margin-top:125px;
 }
