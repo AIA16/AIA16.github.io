@@ -9,6 +9,8 @@
     .navbar-toggler{
             margin-top: 05px;
             margin-right: 05px;
+            padding: .05rem .20rem;
+            font-size: 1.25rem;
     }
     .navbar ul {
         margin-left: -180px !important;
@@ -18,7 +20,7 @@
         font-size: 9px;
     }
     .navbar button{
-        margin-left:50px;
+        margin-left:20px!important;
     }
     .navbar ul {
         margin-left: -180px !important;
@@ -94,9 +96,6 @@
     }
     .the_value {
         font-size: 12px;
-    }
-    .full_story {
-        font-size: 15px;
     }
     .parent {
         margin-top: 40px;
@@ -289,7 +288,7 @@
         margin-left:10px;
     }
     .p2{
-        margin-top: -158px;
+        margin-top: -157px;
         margin-left: 180px;
     }
     .p3{

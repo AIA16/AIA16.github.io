@@ -455,9 +455,9 @@ html{
 .right_lekha{
     margin-top:210px;
 }
-.achieve{
+.achie{
     font-family:Poppins-Bold;
-    font-size:11px;
+    font-size:16px;
     color:#29636e;
 }
 .arduino1{
@@ -526,6 +526,9 @@ html{
     width:940px;
     height:60px;
     vertical-align:center;
+}
+::placeholder{
+    color:black!important;
 }
 #exampleFormControlTextarea1{
     height:61px;
