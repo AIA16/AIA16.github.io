@@ -5,13 +5,13 @@
     /* 1st page background */
     .robot_page {
         width: 100%;
-        height: 910px;
+        height: 930px;
     }
     .navbar button{
         margin-left:100px;
     }
     .navbar ul{
-        margin-left:-15px;
+        margin-left:-20px;
     }
     /* First Page ::content */
     
